@@ -9,6 +9,10 @@ Url: https://sourceforge.net/projects/tilp
 Source0: http://downloads.sourceforge.net/project/tilp/tilp2-linux/tilp2-1.16/%{name}-%{version}.tar.bz2
 Group: System/Libraries
 License: GPLv2+
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libusb1-devel, glib2-devel
 BuildRequires: autoconf pkgconfig(ticonv) pkgconfig(libusb) pkgconfig(tifiles2)
 Requires: udev >= 154
